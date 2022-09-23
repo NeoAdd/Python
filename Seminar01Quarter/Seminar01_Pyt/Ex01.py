@@ -60,8 +60,36 @@ print(res)
 
 
 # Полидром
-string = 'abba'
+# n = 'abba'
+# count = 0
+# for i in range(len(n)//2):
+#     if n[i]==n[-1-i]:
+#         count+=1
+# if count==(len(n)//2):
+#     print('Полидром')
+# else:
+#     print('не полидром')
 
-rev_string = [::-1]
+# Другой способ полиндрома в одну строку
+
+# string = 'abba'
+# rev_string = string[::-1]
+# if string == rev_string:
+#     print('Полидром')
+# else:
+#     print('не полидром')
 
 
+
+
+Напишите программу, которая выводит 
+нечетные числа из заданного списка и 
+останавливается, если встречает число 554.
+
+
+lst = [23, 4, 67, -2, 5, 554, 765]
+for i in lst:
+    if i % 2 != 0:
+        print(i, end=" ")
+    elif i == 554:
+        break

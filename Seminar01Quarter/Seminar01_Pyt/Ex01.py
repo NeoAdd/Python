@@ -60,4 +60,8 @@ print(res)
 
 
 # Полидром
+string = 'abba'
+
+rev_string = [::-1]
+
 

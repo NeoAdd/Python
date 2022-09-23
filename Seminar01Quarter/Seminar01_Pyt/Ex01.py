@@ -43,7 +43,21 @@
 проверки истинности 
 утверждения ¬(X ⋁ Y ⋁ Z) = ¬X ⋀ ¬Y ⋀ ¬Z для всех значений предикат.
 
-for x in range (2):
-    for y in rage(2):
+
+for x in range(2):
+    for y in range(2):
         for z in range(2):
-            print (not(X or Y or Z) == (not X and not Y and not Z))
+            print(f'{x,y,z} : {(not(x or y or z)) == (not x and not y and not z)}')
+
+
+# Сложить числа вещественного числа
+n = input("Введите число: ")
+res = 0
+for i in n:
+    if i != "." and i != ",":
+        res += int(i)
+print(res)
+
+
+# Полидром
+

@@ -6,8 +6,7 @@
 
 list = [2, 3, 6, 4, 3, 5]
 
-# if len(list)%2 == 0:
-#     size = len(list) // 2
+
 import math 
 size = math.ceil(len(list)/2)
 print(size)

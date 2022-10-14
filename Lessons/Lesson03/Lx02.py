@@ -5,7 +5,7 @@ path ='/Users/олег/Desktop/Учеба IT/git/Python/Lessons/Lesson03/file1.t
 
 
 f = open(path, 'r')
-data = f.read() + ''
+data = f.read() + ' '
 f.close()
 
 numbers = []

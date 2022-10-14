@@ -1,7 +1,7 @@
 # Взять данные из файла, найти четные, 
 # вывести кортеж и числа взятого и числа **3
 
-path ='/Users/олег/Desktop/Учеба IT/git/Python/Lessons/Lesson03/file1.txt'
+path ='c:/Users/олег/Desktop/Учеба IT/git/Python/Lessons/Lesson03/file1.txt'
 
 
 f = open(path, 'r')

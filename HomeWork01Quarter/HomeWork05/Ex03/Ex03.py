@@ -1,4 +1,4 @@
-print('Игра с конфетами. ЧЕЛОВЕК / БОТ')
+print('Игра с конфетами. ЧЕЛОВЕК / БОТ не самый умный')
 
 
 sweet = 2021
@@ -17,11 +17,20 @@ while sweet >= 0:
             break
         else:
                 print('Теперь ходит БОТ')
-                sweet = sweet -1
+                if sweet > 28:
+                    sweet = sweet - 28
+                    print('Осталось конфет')
+                    print(sweet)
+                    if sweet == 0:
+                        print('Победил БОТ')
+                        break
+                else:
+                    sweet = sweet - 1
                 print('Осталось конфет')
                 print(sweet)
                 if sweet == 0:
                     print('Победил БОТ')
                     break
+
 
 
